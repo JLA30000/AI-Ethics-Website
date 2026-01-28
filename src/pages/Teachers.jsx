@@ -38,7 +38,7 @@ function Teachers() {
           <div className="card-body">
             <p>
               As a teacher, you also should begin exploring AI in order to
-              share with your students, your personal experiences regarding the
+              share with your students your personal experiences regarding the
               technology. AI can be used to speed up boring processes like
               grading homework.
             </p>
