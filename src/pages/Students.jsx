@@ -35,7 +35,7 @@ function Students() {
           <h2>Pitfalls</h2>
           <p>
             Using AI to do your homework and exams for you seems like a cheat
-            code. But at the end of day, the score shouldn't be what you're
+            code. But at the end of the day, the score shouldn't be what you're
             aiming for. The knowledge and growth are far more important.
           </p>
         </article>
@@ -44,7 +44,7 @@ function Students() {
           <p>
             Learn what AI is and how to use it. But make sure that you still
             remember how to think and solve your own problems. Don't form a
-            dependancy on this technology.
+            dependency on this technology.
           </p>
         </article>
       </div>
@@ -54,41 +54,91 @@ function Students() {
           <p className="section-lede">
             You may have heard rumors that AI is going to completely replace
             all human labor. These rumors are completely false. According to a
-            report by McKinsey & Company, AI is expect to create over 20 million
-            jobs globally by 2030. The job market is being destroyed, but also
-            developed. Jobs are changing and the skills you need to grow are
+            report by McKinsey & Company, AI is expected to create over 20 million
+            jobs globally by 2030. The job market is changing quickly as roles
+            evolve and new ones emerge. Jobs are changing and the skills you need to grow are
             shifting too. Learn what aspects of education matter the most for
             whichever field you intend to pursue.
           </p>
         </div>
-        <div className="card-grid">
-          <article className="card">
+        <div className="card-grid ai-scope-grid">
+          <article className="card ai-scope-card">
             <h3>Computer Science and Engineering</h3>
-            <p>
-              AI is reshaping how software is built, tested, and secured, so
-              strong fundamentals and critical thinking matter more than ever.
-            </p>
+            <div className="ai-scope-panels">
+              <div className="ai-scope-panel ai-scope-panel-can">
+                <p className="ai-scope-label">What AI can do</p>
+                <p>
+                  Debug code, build basic websites, solve simple problems.
+                </p>
+              </div>
+              <div className="ai-scope-panel ai-scope-panel-cant">
+                <p className="ai-scope-label">What AI can&apos;t do</p>
+                <p>
+                  Solve complex problems (USACO Silver + or Codeforces 1600+),
+                  design professional websites, find innovative solutions,
+                  creative algorithms.
+                </p>
+              </div>
+            </div>
           </article>
-          <article className="card">
+          <article className="card ai-scope-card">
             <h3>Medicine and Healthcare</h3>
-            <p>
-              AI supports diagnostics and research, but human judgment and
-              ethics still guide decisions.
-            </p>
+            <div className="ai-scope-panels">
+              <div className="ai-scope-panel ai-scope-panel-can">
+                <p className="ai-scope-label">What AI can do</p>
+                <p>
+                  Analyze large amounts of medical data, assess trends and
+                  perform data analysis, aid in giving medical diagnosis and
+                  research.
+                </p>
+              </div>
+              <div className="ai-scope-panel ai-scope-panel-cant">
+                <p className="ai-scope-label">What AI can&apos;t do</p>
+                <p>
+                  Replace doctors&apos; experience and judgment, precise hands-on
+                  tasks, innovative research, human interaction.
+                </p>
+              </div>
+            </div>
           </article>
-          <article className="card">
+          <article className="card ai-scope-card">
             <h3>Business</h3>
-            <p>
-              Automation helps with analysis and drafting, while creativity and
-              leadership remain human strengths.
-            </p>
+            <div className="ai-scope-panels">
+              <div className="ai-scope-panel ai-scope-panel-can">
+                <p className="ai-scope-label">What AI can do</p>
+                <p>
+                  Draft analysis, generate basic business ideas, help write
+                  business plans, help organize resources and information.
+                </p>
+              </div>
+              <div className="ai-scope-panel ai-scope-panel-cant">
+                <p className="ai-scope-label">What AI can&apos;t do</p>
+                <p>
+                  Come up with truly innovative ideas, assess needs and demand,
+                  connect with customers.
+                </p>
+              </div>
+            </div>
           </article>
-          <article className="card">
+          <article className="card ai-scope-card">
             <h3>Art and Design</h3>
-            <p>
-              AI can generate ideas quickly, yet originality and taste still
-              come from human creators.
-            </p>
+            <div className="ai-scope-panels">
+              <div className="ai-scope-panel ai-scope-panel-can">
+                <p className="ai-scope-label">What AI can do</p>
+                <p>
+                  Generate artistic images quickly, analyze different designs,
+                  plan out large projects quickly.
+                </p>
+              </div>
+              <div className="ai-scope-panel ai-scope-panel-cant">
+                <p className="ai-scope-label">What AI can&apos;t do</p>
+                <p>
+                  Recognize abstract patterns, creative artwork and design,
+                  understand human emotions and appeals, thorough analysis of
+                  designs.
+                </p>
+              </div>
+            </div>
           </article>
         </div>
       </section>
@@ -98,7 +148,7 @@ function Students() {
           <p className="section-lede">
             AI is a tool that can help improve your education and support your
             growth journey. Follow these tips to effectively use this
-            technology
+            technology.
           </p>
         </div>
         <ul className="checklist checklist-long">
@@ -108,9 +158,9 @@ function Students() {
             yourself, your work can be just as good if not better than that of
             generative AI. Redmond High School CSA teacher Mr. Methvin said that
             most students are under the false impression that AI is always
-            right. Make sure to fact check the responses because AI is only as
+            right. Make sure to fact-check the responses because AI is only as
             good as information it&apos;s trained from. It&apos;s just as prone to
-            make errors as normal people are
+            make errors as normal people are.
           </li>
           <li>
             Using generative AI as a personal tutor can be both rewarding and
@@ -129,7 +179,7 @@ function Students() {
             schedule. Notice how these all center around using AI to speed up
             or check things you already know how to do. If you&apos;re asking AI
             to look at something you don&apos;t understand, you have no way of
-            making sure whether AI is actually giving out accurate information
+            making sure whether AI is actually giving out accurate information.
           </li>
         </ul>
       </section>

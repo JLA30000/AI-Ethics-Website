@@ -29,7 +29,7 @@ function Teachers() {
             </p>
             <p>
               Students need to learn how to effectively use AI to thrive in the
-              new jobscape.
+              new job landscape.
             </p>
           </div>
         </article>
@@ -122,7 +122,7 @@ function Teachers() {
                 personal tutor can help them understand difficult principles,
                 learn content ahead of the curriculum, and review content that
                 they struggled with. If students are exposed to AI and know
-                how to use it effectively, they'll be bettter prepared to
+                how to use it effectively, they'll be better prepared to
                 succeed in college and beyond.
               </p>
             </div>
@@ -134,10 +134,10 @@ function Teachers() {
                 abuse AI. Research has shown that consistent, repetitive usage
                 of AI can damage critical thinking skills. Students need to
                 develop their thinking and small everyday tasks help them do
-                so. If they begin to use AI to do everything, then they're
+                so. If they begin to use AI to do everything, then their
                 innovation skills will be severely underdeveloped. Having
                 classrooms full of students whose thinking is wired into AI
-                can be harmful as it leads to severe reduction in over
+                can be harmful as it leads to severe reduction in our
                 diversity of thought.
               </p>
             </div>
@@ -147,7 +147,7 @@ function Teachers() {
               <p>
                 The future is bright for all students as technology is making
                 the world better. AI can be an amazing tool to reduce
-                financial barriers, assist at solving unsolved problems, and
+                financial barriers, assist in solving unsolved problems, and
                 make life easier in general. If students learn how to use this
                 tool to its maximum potential, they will be well-prepared to
                 succeed in the new world.
