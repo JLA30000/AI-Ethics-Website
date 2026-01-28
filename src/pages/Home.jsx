@@ -12,9 +12,12 @@ function Home() {
           <div className="lede-group">
             <p className="lede">
               Currently, the education system fails to both effectively
-              regulate and integrate AI. Schools ban AI in their systems even
-              in perfectly acceptable scenarios. Students abuse AI at home when
-              doing homework and end up not learning any content.
+              regulate and integrate AI. Some schools ban AI resulting in
+              students not being able to use this technology even in perfectly
+              acceptable scenarios. Some parents also set controls on home
+              devices which prevent their kids from accessing AI tools. And
+              without these bans, students begin to abuse AI using it to cheat
+              on tests and homework.
             </p>
             <p className="lede">
               In order for this to be addressed, both students, parents, and
@@ -25,93 +28,80 @@ function Home() {
               learn to use AI effectively without abusing this technology.
             </p>
           </div>
-          <div className="hero-actions">
-            <Link to="/students" className="button">
-              Start with students
-            </Link>
-            <Link to="/teachers" className="button button-outline">
-              Explore teacher toolkit
-            </Link>
-          </div>
-          <div className="hero-metrics">
-            <div className="metric">
-              <span className="metric-value">3</span>
-              <span className="metric-label">Learning pathways</span>
-            </div>
-            <div className="metric">
-              <span className="metric-value">12</span>
-              <span className="metric-label">Guided activities</span>
-            </div>
-            <div className="metric">
-              <span className="metric-value">1</span>
-              <span className="metric-label">Shared pledge</span>
-            </div>
-          </div>
         </div>
         <div className="hero-panel">
           <div className="info-card">
-            <h3>Ethical habits we teach</h3>
+            <h3>Important Ethical Habits for Students</h3>
             <ul className="info-list">
-              <li>Verify sources before sharing or submitting.</li>
-              <li>Label AI assistance with clarity and honesty.</li>
-              <li>Use AI to learn, not to replace thinking.</li>
+              <li>Verify any AI generated information.</li>
+              <li>Ensure proper citation of all AI generated content.</li>
+              <li>
+                Don't let AI do the thinking for you. AI doesn't have the
+                creativity and innovation that you do.
+              </li>
             </ul>
           </div>
           <div className="info-card info-card-accent">
-            <h3>Classroom-ready outcomes</h3>
-            <p>
-              Students leave with a personal AI-use plan, while teachers gain
-              policy language and assessment cues.
-            </p>
+            <h3>AI Ethics Guide Goals</h3>
+            <ul className="info-list">
+              <li>Educate students on the proper and ethical uses of AI.</li>
+              <li>
+                Inform parents and teachers guidelines to help students succeed
+                in an AI dominated industry.
+              </li>
+            </ul>
           </div>
         </div>
       </div>
 
       <section className="section-block">
         <div className="section-header">
-          <h2 className="section-title">Learning pillars</h2>
+          <h2 className="section-title">Pillars for success</h2>
           <p className="section-lede">
-            Three focus areas that keep AI in education transparent, equitable,
-            and human-centered.
+            Three important mindsets to have to allow effective integration of
+            AI in education.
           </p>
         </div>
         <div className="pillars">
           <article className="pillar-card">
-            <h3>Transparency</h3>
-            <p>Students learn when and how to disclose AI support.</p>
+            <div className="pillar-box">
+              <h3>Open mindset</h3>
+              <p>
+                Students, teachers, and parents all have to be able to adapt to
+                AI.
+              </p>
+            </div>
+            <img
+              className="pillar-image"
+              src="/pictures/ai_future.png"
+              alt="Abstract view of the future of AI"
+            />
           </article>
           <article className="pillar-card">
-            <h3>Critical thinking</h3>
-            <p>Teach students to question outputs and check evidence.</p>
+            <div className="pillar-box">
+              <h3>Critical thinking</h3>
+              <p>
+                AI can do a lot of tasks better than humans, but our innovation
+                and insight remains unmatched by machines.
+              </p>
+            </div>
+            <img
+              className="pillar-image"
+              src="/pictures/code_images.png"
+              alt="Code and AI visuals"
+            />
           </article>
           <article className="pillar-card">
-            <h3>Agency</h3>
-            <p>Ensure learners own their voice, style, and decisions.</p>
+            <div className="pillar-box">
+              <h3>Caution</h3>
+              <p>Use AI appropriately but don't depend on it.</p>
+            </div>
+            <img
+              className="pillar-image"
+              src="/pictures/matrix_code.png"
+              alt="Matrix-style code graphic"
+            />
           </article>
-        </div>
-      </section>
-
-      <section className="section-block">
-        <div className="section-header">
-          <h2 className="section-title">Visual primer</h2>
-          <p className="section-lede">
-            A quick gallery for sparking discussion about AI in everyday
-            learning.
-          </p>
-        </div>
-        <div className="image-grid">
-          <figure className="image-card">
-            <img src="/pictures/ai_future.png" alt="Abstract view of AI future" />
-            <figcaption>Future-facing questions about AI and society.</figcaption>
-          </figure>
-          <figure className="image-card">
-            <img src="/pictures/code_images.png" alt="Code and AI visuals" />
-            <figcaption>Code literacy helps students read AI outputs.</figcaption>
-          </figure>
-          <figure className="image-card">
-            <img src="/pictures/matrix_code.png" alt="Matrix-style code graphic" />
-            <figcaption>Patterns and signals hidden inside model training.</figcaption>
-          </figure>
         </div>
       </section>
 
@@ -119,7 +109,7 @@ function Home() {
         <div className="section-header">
           <h2 className="section-title">Guides for every audience</h2>
           <p className="section-lede">
-            Choose a pathway built for students, teachers, or families.
+            Education for students, teachers, and families.
           </p>
         </div>
         <div className="card-grid">
@@ -129,11 +119,17 @@ function Home() {
           </Link>
           <Link to="/teachers" className="card card-link">
             <h2>Teachers</h2>
-            <p>Guide instruction with policy-ready, classroom-friendly norms.</p>
+            <p>
+              Educate students to effectively and efficiently use AI ensuring
+              their bright future.
+            </p>
           </Link>
           <Link to="/parents" className="card card-link">
             <h2>Parents</h2>
-            <p>Support your child with boundaries that respect curiosity.</p>
+            <p>
+              Support your child's growth and education, establish boundaries
+              for AI usage.
+            </p>
           </Link>
         </div>
       </section>
@@ -147,21 +143,23 @@ function Home() {
         </div>
         <ol className="timeline">
           <li>
-            <span className="timeline-title">Discover</span>
+            <span className="timeline-title">Understand</span>
             <span className="timeline-body">
-              Map where AI shows up, from brainstorming to grading.
+              Learn what AI is. Understand its applications and its
+              limitations.
             </span>
           </li>
           <li>
             <span className="timeline-title">Practice</span>
             <span className="timeline-body">
-              Use guided prompts to spot errors and bias.
+              Use various prompts and test how AI responds. Start to understand
+              how to most efficiently utilize this technology.
             </span>
           </li>
           <li>
             <span className="timeline-title">Reflect</span>
             <span className="timeline-body">
-              Set boundaries and document what ethical use looks like.
+              Set boundaries and decide how you plan to use AI appropriately.
             </span>
           </li>
         </ol>

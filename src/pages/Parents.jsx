@@ -4,10 +4,10 @@ function Parents() {
       <div className="page-hero">
         <div className="page-hero__text section-header">
           <p className="eyebrow">For Parents</p>
-          <h1>Family-centered guidance that feels human.</h1>
+          <h1>Guide Your Kid to Success in the AI Age</h1>
           <p className="lede">
-            Get conversation starters, privacy tips, and shared agreements that
-            help children use AI thoughtfully.
+            Provide guidance, assistance, and boundaries. Help your kid learn
+            how to properly use this tool to ensure their future success.
           </p>
         </div>
         <div className="page-hero__media">
@@ -20,37 +20,41 @@ function Parents() {
       </div>
       <div className="card-grid">
         <article className="card">
-          <h2>Conversation Starters</h2>
+          <h2>Guidance</h2>
           <p>
-            Age-appropriate questions that make AI less mysterious and more
-            manageable.
+            Help your students manage workload efficiently. Teach them
+            appropriate scenarios to use AI.
           </p>
         </article>
         <article className="card">
-          <h2>Family Agreements</h2>
+          <h2>Assistance</h2>
           <p>
-            Simple guidelines that balance exploration with safety and respect.
+            Help your kids with their work. Ensure they have resources to
+            succeed without needing to constantly turn to generative AI.
           </p>
         </article>
         <article className="card">
-          <h2>Resource Shelf</h2>
+          <h2>Boundaries</h2>
           <p>
-            Curated links for ongoing learning, from privacy basics to media
-            literacy.
+            Don't block AI in child devices. Instead, monitor AI usage so that
+            you can track how your kid is using the technology.
           </p>
         </article>
       </div>
       <section className="section-block section-block-compact">
         <div className="section-header">
-          <h2 className="section-title">Family guardrails</h2>
+          <h2 className="section-title">Helpful Tips</h2>
           <p className="section-lede">
-            Keep expectations clear while encouraging curiosity.
+            Ensure your child's success in an uncertain future.
           </p>
         </div>
         <ul className="checklist">
-          <li>Agree on where AI is allowed for homework.</li>
-          <li>Review AI outputs together for bias or missing context.</li>
-          <li>Protect privacy by avoiding personal details in prompts.</li>
+          <li>Set guidelines on when AI should be used for school work.</li>
+          <li>Review AI outputs together to ensure credible information.</li>
+          <li>
+            Help your kid turn AI into a tool to help their understanding and
+            education.
+          </li>
         </ul>
       </section>
     </section>

@@ -284,8 +284,7 @@ img {
 }
 
 .info-card-accent {
-  background: linear-gradient(140deg, rgba(241, 165, 42, 0.18), rgba(27, 154, 170, 0.08));
-  border-color: rgba(241, 165, 42, 0.35);
+  background: var(--surface);
 }
 
 .info-list {
@@ -329,11 +328,20 @@ img {
 }
 
 .pillar-card {
+  display: grid;
+  gap: var(--space-s);
+}
+
+.pillar-box {
   background: rgba(255, 255, 255, 0.9);
   border: 1px solid var(--stroke);
   border-radius: var(--radius-m);
   padding: var(--space-m) var(--space-l);
   box-shadow: var(--shadow-soft);
+  min-height: 210px;
+  display: grid;
+  align-content: start;
+  gap: var(--space-xs);
 }
 
 .pillar-card h3 {
@@ -344,6 +352,14 @@ img {
 .pillar-card p {
   margin: 0;
   color: var(--muted);
+}
+
+.pillar-image {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: var(--radius-s);
+  border: 1px solid var(--stroke);
 }
 
 .card-grid {
@@ -390,6 +406,103 @@ img {
   box-shadow: var(--shadow-soft);
   min-height: 180px;
   transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card-grid-featured {
+  gap: 4px;
+}
+
+.card-grid-stack {
+  grid-template-columns: 1fr;
+}
+
+.teacher-feature-cards .card-feature {
+  min-height: clamp(220px, 28vw, 320px);
+  display: grid;
+  align-content: start;
+  gap: var(--space-s);
+}
+
+.teacher-feature-cards .card-body {
+  min-height: clamp(160px, 22vw, 240px);
+}
+
+.teacher-feature-row .card-feature {
+  min-height: clamp(200px, 24vw, 280px);
+}
+
+.teacher-feature-row .card-body {
+  min-height: clamp(140px, 18vw, 200px);
+  gap: 2px;
+}
+
+.solution-cards {
+  margin-top: var(--space-m);
+}
+
+.card-feature {
+  position: relative;
+  overflow: visible;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+}
+
+.card-feature::after {
+  content: none;
+}
+
+.card-feature h2 {
+  font-family: var(--font-serif);
+  font-size: 1.35rem;
+}
+
+.card-body {
+  font-size: 1.02rem;
+  line-height: 1.75;
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(11, 27, 43, 0.08);
+  border-radius: var(--radius-m);
+  padding: var(--space-m) var(--space-l);
+  box-shadow: var(--shadow-soft);
+  display: grid;
+  gap: 4px;
+}
+
+.solution-card-body {
+  font-size: 1.02rem;
+  line-height: 1.8;
+  background: rgba(255, 255, 255, 0.85);
+  border: 1px solid rgba(11, 27, 43, 0.08);
+  border-radius: var(--radius-m);
+  padding: var(--space-m) var(--space-l);
+  box-shadow: var(--shadow-soft);
+  position: relative;
+}
+
+.solution-card-body::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  border-radius: var(--radius-m) 0 0 var(--radius-m);
+  background: rgba(27, 154, 170, 0.6);
+}
+
+.solution-card-body p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.card-feature ul {
+  margin: 0;
+  padding-left: 1.2rem;
+  color: var(--muted);
+  display: grid;
+  gap: var(--space-xs);
 }
 
 .card h2 {
@@ -467,6 +580,36 @@ img {
   height: 12px;
   border-radius: 4px;
   background: var(--teal);
+}
+
+.checklist-long {
+  counter-reset: checklist;
+}
+
+.checklist-long li {
+  counter-increment: checklist;
+  padding: var(--space-m) var(--space-l) var(--space-m) 4.2rem;
+  font-size: 1rem;
+  line-height: 1.8;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.92), rgba(241, 165, 42, 0.08));
+  border-left: 4px solid rgba(241, 165, 42, 0.7);
+}
+
+.checklist-long li::before {
+  content: counter(checklist);
+  left: 1.2rem;
+  top: 1.2rem;
+  transform: none;
+  width: 28px;
+  height: 28px;
+  border-radius: 999px;
+  background: var(--accent);
+  color: #3a2400;
+  font-weight: 700;
+  font-size: 0.9rem;
+  display: grid;
+  place-items: center;
+  box-shadow: 0 10px 18px rgba(217, 137, 18, 0.3);
 }
 
 .resource-card {

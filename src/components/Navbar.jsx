@@ -14,8 +14,10 @@ function Navbar() {
         <div className="brand">
           <span className="brand-mark">AE</span>
           <div className="brand-copy">
-            <span className="brand-text">AI Ethics School</span>
-            <span className="brand-subtext">Practical AI literacy</span>
+            <span className="brand-text">AI Ethics Guide</span>
+            <span className="brand-subtext">
+              Responding to the rapid development of AI
+            </span>
           </div>
         </div>
         <nav className="nav-links">
