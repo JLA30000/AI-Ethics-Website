@@ -12,10 +12,10 @@ function Home() {
           <div className="lede-group">
             <p className="lede">
               Currently, the education system fails to both effectively
-              regulate and integrate AI. Some schools ban AI resulting in
+              regulate and integrate AI. Some schools ban AI, resulting in
               students not being able to use this technology even in perfectly
               acceptable scenarios. Some parents also set controls on home
-              devices which prevent their kids from accessing AI tools. And
+              devices that prevent their kids from accessing AI tools. And
               without these bans, students begin to abuse AI using it to cheat
               on tests and homework.
             </p>
@@ -27,14 +27,36 @@ function Home() {
               regulate AI usage at home, and students need to do their part and
               learn to use AI effectively without abusing this technology.
             </p>
+            <p className="lede">
+              Schools should replace direct AI bans with structured education
+              that teaches students how to use AI ethically, responsibly, and
+              efficiently within clear academic boundaries.
+            </p>
           </div>
         </div>
         <div className="hero-panel">
+          <div className="hero-logos">
+            <img
+              className="hero-logo"
+              src="/pictures/openai_logo.png"
+              alt="OpenAI logo"
+            />
+            <img
+              className="hero-logo"
+              src="/pictures/claude_logo2.png"
+              alt="Claude logo"
+            />
+            <img
+              className="hero-logo"
+              src="/pictures/gemini_logo.png"
+              alt="Gemini logo"
+            />
+          </div>
           <div className="info-card">
             <h3>Important Ethical Habits for Students</h3>
             <ul className="info-list">
-              <li>Verify any AI generated information.</li>
-              <li>Ensure proper citation of all AI generated content.</li>
+              <li>Verify any AI-generated information.</li>
+              <li>Ensure proper citation of all AI-generated content.</li>
               <li>
                 Don't let AI do the thinking for you. AI doesn't have the
                 creativity and innovation that you do.
@@ -46,8 +68,8 @@ function Home() {
             <ul className="info-list">
               <li>Educate students on the proper and ethical uses of AI.</li>
               <li>
-                Inform parents and teachers guidelines to help students succeed
-                in an AI dominated industry.
+                Inform parents and teachers of guidelines to help students
+                succeed in an AI-dominated industry.
               </li>
             </ul>
           </div>
@@ -82,7 +104,7 @@ function Home() {
               <h3>Critical thinking</h3>
               <p>
                 AI can do a lot of tasks better than humans, but our innovation
-                and insight remains unmatched by machines.
+                and insight remain unmatched by machines.
               </p>
             </div>
             <img

@@ -8,7 +8,7 @@ function Teachers() {
           <p className="lede">
             As AI develops, education isn't the same as it used to be. Your
             students need to develop and prioritize different skills in order
-            to thrive in an industry of AI.
+            to thrive in the AI industry.
           </p>
         </div>
         <div className="page-hero__media">
@@ -38,8 +38,8 @@ function Teachers() {
           <div className="card-body">
             <p>
               As a teacher, you also should begin exploring AI in order to
-              share with your students your personal experiences regarding the
-              technology. AI can be used to speed up boring processes like
+              share your personal experiences regarding the technology with
+              your students. AI can be used to speed up boring processes like
               grading homework.
             </p>
           </div>
@@ -69,7 +69,7 @@ function Teachers() {
           <h2 className="section-title">Pros and Cons of AI bans</h2>
           <p className="section-lede">
             Many school districts around the world have implemented policies
-            banning usage of generative AI. Banning can feel like a safe and
+            banning the use of generative AI. Banning can feel like a safe and
             easy option, but is it the best solution?
           </p>
         </div>
@@ -86,7 +86,7 @@ function Teachers() {
           <article className="card">
             <h3>Cons</h3>
             <ul>
-              <li>Students fail to get exposure on how to use AI</li>
+              <li>Students fail to get exposure to how to use AI</li>
               <li>
                 Students who can't use AI as a tool will fall behind others who
                 can
@@ -101,7 +101,7 @@ function Teachers() {
           <h2 className="section-title">The Solution</h2>
           <p className="section-lede">
             With all the rapid technological development that's currently
-            happening, accessibility to digital resources has greatly
+            happening, accessibility of digital resources has greatly
             increased. But these digital tools aren't always harmful. In order
             for students to learn how to most effectively utilize them, schools
             need to step in.
@@ -118,8 +118,9 @@ function Teachers() {
               <p>
                 Adding an AI-focused class can be extremely beneficial for
                 students. This class aims to educate students on how they
-                should use AI to further their education. Using AI as a
-                personal tutor can help them understand difficult principles,
+                should use AI to further their education. Salman Khan, CEO of
+                Khan Academy, believes that using AI as a personal tutor can
+                help them understand difficult principles,
                 learn content ahead of the curriculum, and review content that
                 they struggled with. If students are exposed to AI and know
                 how to use it effectively, they'll be better prepared to
@@ -131,13 +132,13 @@ function Teachers() {
             <div className="solution-card-body">
               <p>
                 While AI exposure is important, ensure that students don't
-                abuse AI. Research has shown that consistent, repetitive usage
+                abuse AI. Research from MIT professors has shown that consistent, repetitive use
                 of AI can damage critical thinking skills. Students need to
                 develop their thinking and small everyday tasks help them do
                 so. If they begin to use AI to do everything, then their
                 innovation skills will be severely underdeveloped. Having
                 classrooms full of students whose thinking is wired into AI
-                can be harmful as it leads to severe reduction in our
+                can be harmful as it leads to a severe reduction in our
                 diversity of thought.
               </p>
             </div>

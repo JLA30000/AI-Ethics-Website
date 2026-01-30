@@ -22,7 +22,7 @@ function Parents() {
         <article className="card">
           <h2>Guidance</h2>
           <p>
-            Help your students manage workload efficiently. Teach them
+            Help your kids manage workloads efficiently. Teach them
             appropriate scenarios to use AI.
           </p>
         </article>
@@ -36,7 +36,7 @@ function Parents() {
         <article className="card">
           <h2>Boundaries</h2>
           <p>
-            Don't block AI in child devices. Instead, monitor AI usage so that
+            Don't block AI on children's devices. Instead, monitor AI usage so that
             you can track how your kid is using the technology.
           </p>
         </article>
@@ -49,7 +49,7 @@ function Parents() {
           </p>
         </div>
         <ul className="checklist">
-          <li>Set guidelines on when AI should be used for school work.</li>
+          <li>Set guidelines on when AI should be used for schoolwork.</li>
           <li>Review AI outputs together to ensure credible information.</li>
           <li>
             Help your kid turn AI into a tool to help their understanding and

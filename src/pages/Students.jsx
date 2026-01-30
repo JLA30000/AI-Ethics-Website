@@ -7,8 +7,8 @@ function Students() {
           <h1>Effectively Navigate Education.</h1>
           <p className="lede">
             We understand that education is a stressful process. The steps you
-            take now can determine your future so you need to carefully decide
-            what those are. AI exists as a tool and it has great potential to
+            take now can determine your future, so you need to carefully decide
+            what those are. AI exists as a tool, and it has great potential to
             make your life easier. The AI Ethics Guide exists to help you
             navigate AI usage to further your education so you can achieve your
             greatest potential.
@@ -159,7 +159,7 @@ function Students() {
             generative AI. Redmond High School CSA teacher Mr. Methvin said that
             most students are under the false impression that AI is always
             right. Make sure to fact-check the responses because AI is only as
-            good as information it&apos;s trained from. It&apos;s just as prone to
+            good as the information it&apos;s trained on. It&apos;s just as prone to
             make errors as normal people are.
           </li>
           <li>
@@ -180,6 +180,51 @@ function Students() {
             or check things you already know how to do. If you&apos;re asking AI
             to look at something you don&apos;t understand, you have no way of
             making sure whether AI is actually giving out accurate information.
+          </li>
+        </ul>
+      </section>
+      <section className="section-block section-block-compact">
+        <div className="section-header">
+          <h2 className="section-title">Best things to have AI do</h2>
+          <p className="section-lede">
+            Helpful guide.
+          </p>
+        </div>
+        <ul className="checklist">
+          <li>
+            Write long simple code: AI is great at writing long pieces of code
+            that are normally tedious to write. DON&apos;T ask AI to write complex
+            code. From my personal experience, AI struggles to solve any
+            Codeforces problem over a 1700 rating. Even GPT-5 doesn&apos;t work on
+            these types of problems. AI will only confuse you if you input
+            confusing tasks.
+          </li>
+          <li>
+            Reviewing long papers for grammar mistakes or bad wording choices:
+            AI can effectively help find mistakes. In general, when it comes to
+            sentence flow and structure, AI is a strong tool; however, often
+            the writing it generates lacks the proper tone for the
+            situation. DON&apos;T use AI to write a final draft. Rather use it to
+            gradually improve your own drafts.
+          </li>
+          <li>
+            Review long pieces of text: Another thing AI is great for is summarizing
+            long passages of text. For example, if you're reading over a long
+            instruction manual, AI can quickly pinpoint the exact content you
+            need. Also, when writing research papers, analyzing past papers
+            takes a lot of time. This process can be greatly sped up by using
+            AI to summarize papers.
+          </li>
+          <li>
+            In general, AI can do a lot of things that can aid your educational
+            journey. AI can teach you new concepts and help you start projects.
+            AI can also be a shortcut, but it&apos;s one you shouldn&apos;t take and
+            rely on. As a rule of thumb, never directly use anything
+            copy-pasted from AI. AI can make mistakes and you should always
+            fact-check the information. Don&apos;t have AI do a task for you that
+            you can&apos;t do yourself or don&apos;t fully understand, or you&apos;ll have
+            no way of making sure whether it&apos;s right or not. The best practice
+            is to use AI to maximize productivity.
           </li>
         </ul>
       </section>
