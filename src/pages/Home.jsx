@@ -113,7 +113,7 @@ function Home() {
                 and insight remain unmatched by machines. According to the
                 article "Guest Column: AI proof careers", the most important
                 skills people need to have to not be replaced by machine is
-                creativity, and critical thinking.
+                creativity and critical thinking.
               </p>
             </div>
             <img

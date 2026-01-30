@@ -230,8 +230,8 @@ function Impact() {
             <h2>Dependency</h2>
             <div className="impact-flaw-body">
               <p>
-                Don&apos;t rely on AI for everything. According to Redmond High
-                School AP CSA Teacher Mr. Methvin, the two most common
+                Don&apos;t rely on AI for everything. In my interview with Redmond High
+                School AP CSA Teacher Mr. Methvin, I learned that the two most common
                 misconceptions that people have about AI are that it&apos;s always
                 right and that it&apos;s free. According to the article "Regulate AI -
                 for the Sake of Our Jobs, Brains, and Planet", AI produces a lot
