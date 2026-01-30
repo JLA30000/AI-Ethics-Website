@@ -55,7 +55,11 @@ function Home() {
           <div className="info-card">
             <h3>Important Ethical Habits for Students</h3>
             <ul className="info-list">
-              <li>Verify any AI-generated information.</li>
+              <li>
+                Verify any AI-generated information. According to Sam Altman,
+                CEO of OpenAI, even the most reliable models can make the most
+                rudimentary mistakes.
+              </li>
               <li>Ensure proper citation of all AI-generated content.</li>
               <li>
                 Don't let AI do the thinking for you. AI doesn't have the
@@ -90,7 +94,9 @@ function Home() {
               <h3>Open mindset</h3>
               <p>
                 Students, teachers, and parents all have to be able to adapt to
-                AI.
+                AI. According to the article "The Urgent Case of AI
+                Regulation", AI is already being used for more serious tasks
+                than people imagine. With AI comes possibility.
               </p>
             </div>
             <img
@@ -104,7 +110,10 @@ function Home() {
               <h3>Critical thinking</h3>
               <p>
                 AI can do a lot of tasks better than humans, but our innovation
-                and insight remain unmatched by machines.
+                and insight remain unmatched by machines. According to the
+                article "Guest Column: AI proof careers", the most important
+                skills people need to have to not be replaced by machine is
+                creativity, and critical thinking.
               </p>
             </div>
             <img
@@ -116,7 +125,13 @@ function Home() {
           <article className="pillar-card">
             <div className="pillar-box">
               <h3>Caution</h3>
-              <p>Use AI appropriately but don't depend on it.</p>
+              <p>
+                Use AI appropriately but don't depend on it. AI isn't a free
+                tool and we might not always have access to it. The United
+                Nations Environment Programs stated that AI data centers use
+                massive amounts of electricity and consume large amounts of
+                natural resources.
+              </p>
             </div>
             <img
               className="pillar-image"

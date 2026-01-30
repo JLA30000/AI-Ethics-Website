@@ -358,7 +358,7 @@ img {
   border-radius: var(--radius-m);
   padding: var(--space-m) var(--space-l);
   box-shadow: var(--shadow-soft);
-  min-height: 210px;
+  min-height: 300px;
   display: grid;
   align-content: start;
   gap: var(--space-xs);
